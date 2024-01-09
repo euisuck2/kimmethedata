@@ -431,7 +431,7 @@ p {
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -1002,7 +1002,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a {
-  font-size: 24px;
+  font-size: 65px;
   color: #999;
   letter-spacing: 0.1em;
   font-weight: 500;
@@ -1219,8 +1219,8 @@ blockquote {
     border-top: 1px solid #f7f7f7;
     line-height: 45px;
     margin-left: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .responsive {
