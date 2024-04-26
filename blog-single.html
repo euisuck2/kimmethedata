@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Folio Bootstrap Template - Blog Single</title>
+  <title>Blog Single</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -124,26 +124,35 @@
               <div class="container-main single-main">
                 <div class="col-md-12">
                   <div class="block-main mb-30">
-                    <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="image" id="thumbnail"/>
+                    <img src="assets/img/portfolio/blog-1.png" class="img-fluid" alt="image" id="thumbnail"/>
                     <div class="content-main single-post padDiv">
                       <div class="journal-txt">
-                        <h4><a href="#">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
+                        <h2><a href="#">Mathematics Behind KNN Classifiers</a></h2>
                       </div>
                       <div class="post-meta">
                         <ul class="list-unstyled mb-0">
-                          <li class="author">by:<a href="#">medsign</a></li>
-                          <li class="date">date:<a href="#">March 31, 2017</a></li>
-                          <li class="comment"><i class="ion-ios-heart-outline"></i><a href="#">3 Comments</a></li>
+                          <li class="author">by:<a href="#">Elias Kim</a></li>
+                          <li class="date">date:<a href="#">March 31, 2024</a></li>
+
                         </ul>
                       </div>
-                      <p class="mb-30">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
-                        using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
-                        sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                      <p class="mb-30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                      <blockquote>If you are still looking for that one person who will change your life, take a look in the mirror.</blockquote>
-                      <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" id="thumbnail"/>
+                      <p></p>
+                      <h4> What is K-Nearest Neighbors? </h4>
+                      <p class="mb-30">The K-Nearest Neighbors algorithm works on a simple assumption: similar objects tend to be found near each other. It’s like when you’re in a huge library looking for books on, let’s say, baking.
+                        If you don’t have a guide, you’ll probably just grab books randomly until you find a cooking book,
+                        and then start grabbing books nearby as you hope they’re about baking because cookbooks are usually kept in the same spot.</p>
+                      <h4> How does KNN work? </h4>
+                      <p class="mb-30">
+                        KNN is like the memory whiz of machine learning algorithms. Instead of learning patterns and making predictions like many others do, KNN remembers every single detail of the training data. So, when you throw a new piece of data at it, it digs through everything it remembers to find the data points that are most similar to this new one. These similar points are its ‘nearest neighbors.’
+                        To figure out which neighbors are closest, the algorithm measures the distance between the new data and everything it knows using methods like Euclidean or Manhattan distance. The choice of method matters a lot because it can change how KNN performs. For example, Euclidean distance works great for continuous data, while Manhattan distance is a go-to for categorical data.
+                        </p>
+                        <p class="mb-30">
+                          After measuring the distances, KNN picks the ‘k’ closest ones. The ‘k’ here is important because it’s a setting you choose, and it can make or break the algorithm’s accuracy. If ‘k’ is too small, the algorithm can get too fixated on the noise in your data, which isn’t great. But if ‘k’ is too big, it might consider data points that are too far away, which isn’t helpful either.
+                        For classification tasks, K-Nearest Neighbors looks at the most common class among these ‘k’ neighbors and goes with that. It’s like deciding where to eat based on where most of your friends want to go. For regression tasks, where you’re predicting a number, it calculates the average or sometimes the median of the neighbors’ values and uses that as the prediction.
+                        What’s unique about KNN is it’s a ‘lazy’ algorithm, meaning it doesn’t try to learn a general pattern from the training data. It just stores the data and uses it directly to make predictions. It’s all about finding the nearest neighbors based on how you define ‘closeness,’ which depends on the distance method you use and the value of ‘k’ you set.
+                      </p>
+                      <blockquote>What’s unique about KNN is it’s a ‘lazy’ algorithm, meaning it doesn’t try to learn a general pattern from the training data. It just stores the data and uses it directly to make predictions.</blockquote>
+                      <!--<blockquote><code> Python hello how are you? </code></blockquote>>-->
                       <p class="mb-30">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
                         Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
                         1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
